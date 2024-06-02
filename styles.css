@@ -1,3 +1,27 @@
+header {
+  position: fixed;
+  top: 50px; /* Adjust the distance from the top */
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: transparent;
+}
+
+#header-text span {
+  /* Styles for individual letters */
+  letter-spacing: 2px; /* Adjust the letter spacing */
+}
+
+h1 {
+  font-size: 48px; /* Increase the font size */
+  margin: 0;
+}
+
+.container {
+  padding-top: 120px; /* Adjust this value according to the header's height */
+}
+
 body {
   font-family: Arial, sans-serif;
   display: flex;
